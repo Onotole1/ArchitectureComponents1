@@ -20,7 +20,7 @@ jobs:
           java-version: 17
 
       - name: Build
-				working-directory: ./android
+	working-directory: ./android
         run: |
           chmod +x ./gradlew
           ./gradlew build --info

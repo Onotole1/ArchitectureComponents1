@@ -29,6 +29,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 
     buildTypes {
@@ -59,7 +60,7 @@ dependencies {
     def fragment_version = "1.5.7"
     def lifecycle_version = "2.6.1"
     def navigation_version = "2.5.3"
-    def room_version = "2.5.1"
+    def room_version = "2.6.0-alpha01"
     def firebase_version = "31.1.0"
     def play_services_base_version = "18.2.0"
     def swipe_refresh_version = "1.1.0"

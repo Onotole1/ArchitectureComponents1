@@ -20,6 +20,7 @@ jobs:
           java-version: 17
           
       - name: Decode google-services.json
+        working-directory: ./android
         env:
           FIREBASE_SECRET: ${{ secrets.FIREBASE_SECRET }}
         run: echo $FIREBASE_SECRET > ./app/google-services.json
